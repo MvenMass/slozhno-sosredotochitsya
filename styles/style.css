@@ -23,7 +23,7 @@ body {
   display: grid;
   height: 100vh;
   padding: 20% 10px 15%;
-  margin-block-end: 45px;
+  margin-block-end: 40px;
 }
 
 .main-title {
@@ -139,6 +139,7 @@ body {
   height: fit-content;
   word-break: break-word;
   padding-inline-end: 80px;
+  line-height: 130%;
 }
 
 @media (width >= 768px) {
@@ -152,7 +153,7 @@ body {
   display: grid;
   gap: 20px;
   padding: 0 10px;
-  margin-block-end: 50px;
+  margin-block-end: 45px;
 }
 
 
@@ -165,6 +166,8 @@ body {
 .section__title {
   color: var(--section-title-color);
   font-size: 18px;
+  line-height: 130%;
+
 }
 
 @media (width >= 768px) {
@@ -187,7 +190,7 @@ body {
 }
 
 .special__block-text {
-  margin-block-end: 20px;
+  margin-block-end: 10px;
 }
 
 @media (width >= 768px) {
@@ -219,11 +222,15 @@ body {
   color: var(--subtitle-color);
   font-weight: var(--weight-bold);
   font-size: 18px;
+  line-height: 130%;
+
 }
 
 .section-text {
   color: var(--color-text);
   font-size: 18px;
+  line-height: 130%;
+
 }
 
 .section-link {
@@ -310,5 +317,5 @@ body {
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-family: var(--font-family);
   font-weight: var(--weight-bold);
-  padding: 40% 10%;
+  padding: 42% 10%;
 }
