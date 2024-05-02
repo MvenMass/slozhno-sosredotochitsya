@@ -153,7 +153,7 @@ body {
   display: grid;
   gap: 20px;
   padding: 0 10px;
-  margin-block-end: 47px;
+  margin-block-end: 45px;
 }
 
 
@@ -178,7 +178,7 @@ body {
 
 .section__block {
   display: grid;
-  gap: 17px;
+  gap: 15px;
 }
 
 @media (width >= 768px) {
@@ -202,7 +202,7 @@ body {
 
 
 .special__block-text:not(:last-of-type) {
-  margin-block-end: 16px;
+  margin-block-end: 10px;
 }
 
 @media (width >= 768px) {
