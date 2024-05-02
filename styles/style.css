@@ -28,7 +28,7 @@ body {
 
 @media (width >= 768px) {
   .header {
-    padding: 23% 25px 15% 5px;
+    padding: 25% 25px 15% 5px;
     gap: 12.5%;
   }
 }
@@ -65,7 +65,7 @@ body {
 
 @media (width >= 768px) {
   .header__theme-menu {
-    margin-block-end: 12%;
+    margin-block-end: 10%;
   }
 }
 
