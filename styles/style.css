@@ -153,7 +153,7 @@ body {
   display: grid;
   gap: 20px;
   padding: 0 10px;
-  margin-block-end: 45px;
+  margin-block-end: 50px;
 }
 
 
@@ -178,7 +178,13 @@ body {
 
 .section__block {
   display: grid;
-  gap: 15px;
+  gap: 20px;
+}
+
+.section__block-text {
+  display: grid;
+  gap: 10px;
+  
 }
 
 @media (width >= 768px) {
@@ -198,11 +204,6 @@ body {
   .special__block-text {
     display: block;
   }
-}
-
-
-.special__block-text:not(:last-of-type) {
-  margin-block-end: 10px;
 }
 
 @media (width >= 768px) {
@@ -329,6 +330,6 @@ body {
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-family: var(--font-family);
   font-weight: var(--weight-bold);
-  padding: 75% 10%;
+  padding: 67% 10%;
 }
 
