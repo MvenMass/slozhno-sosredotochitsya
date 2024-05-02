@@ -40,11 +40,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-
-.footer {
-  display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
-}

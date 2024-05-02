@@ -153,7 +153,7 @@ body {
   display: grid;
   gap: 20px;
   padding: 0 10px;
-  margin-block-end: 45px;
+  margin-block-end: 35px;
 }
 
 
@@ -178,7 +178,7 @@ body {
 
 .section__block {
   display: grid;
-  gap: 18px;
+  gap: 16px;
 }
 
 @media (width >= 768px) {
@@ -302,7 +302,7 @@ body {
 }
 
 .footer {
-  height: 100vh;
+ height: 100vh;
 }
 
 .frames {
@@ -317,5 +317,5 @@ body {
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-family: var(--font-family);
   font-weight: var(--weight-bold);
-  padding: 42% 10%;
+  padding: 75% 10%;
 }
