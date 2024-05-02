@@ -50,7 +50,7 @@ body {
 
 @media (width >= 768px) {
   .main-title {
-    margin: 0;
+    margin-block-end: 10%;
   }
 }
 
