@@ -15,4 +15,5 @@
   --weight: normal;
   --cover-img: url(/images/cover-image/png);
   --rec: block;
+  --font-size-title-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }

@@ -46,7 +46,7 @@ body {
   font-family: var(--font-family);
   font-weight: var(--weight-bold);
   text-shadow: 4px 4px var(--accent-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var( --font-size-title-desk);
   margin-block-end: 13%;
   line-height: 0.9;
 }
@@ -82,9 +82,12 @@ body {
 @media (width >= 1024px) {
   .header__theme-menu-list {
     flex-direction: row;
+    gap: 20px;
   }
   .header__theme-menu {
     justify-content: center;
+    align-items: baseline;
+
   }
 }
 
@@ -174,6 +177,14 @@ body {
   }
 }
 
+@media (width >= 1024px) {
+  .title-decor {
+    justify-self: end;
+    max-width: 50%;
+    padding-inline-end: 0;
+  }
+}
+
 .main__section {
   display: grid;
   gap: 20px;
@@ -226,6 +237,13 @@ body {
 .special__block-text {
   display: grid;
   gap: 10px;
+}
+
+
+@media (width >= 1024px) {
+  .special__section-text {
+    word-spacing: -4px;
+  }
 }
 
 @media (width >= 768px) {
@@ -368,7 +386,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--color-main-title);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var( --font-size-title-desk);
   font-family: var(--font-family);
   font-weight: var(--weight-bold);
   text-shadow: 2px 2px var(--accent-color);
@@ -379,7 +397,7 @@ body {
   .footer {
     font-size: 120px;
     line-height: 83%;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: ;
     display: grid;
     align-items: center;
     justify-content: center;
