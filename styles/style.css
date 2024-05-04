@@ -30,7 +30,8 @@ body {
 @media (width >= 768px) {
   .header {
     padding: 25% 25px 25% 5px;
-    gap: 12.5%;
+    gap: 20.5%;
+    margin-block-end: 60px;
   }
 }
 
