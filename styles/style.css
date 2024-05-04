@@ -6,6 +6,7 @@ body {
   overflow: auto;
   font-family: var(--font-family);
 }
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--cover-img);
@@ -24,13 +25,13 @@ body {
   margin-block-end: 40px;
 }
 
-@media (width <= 376px) {
+@media (width <=376px) {
   .header {
     gap: 3%;
   }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .header {
     padding: 0 27px 0 5px;
     gap: 16.5%;
@@ -38,7 +39,7 @@ body {
   }
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .header {
     padding-block-start: 20px;
   }
@@ -52,9 +53,8 @@ body {
   line-height: 0.9;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .title {
-    font-size: 120px;
     line-height: 83%;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -67,7 +67,7 @@ body {
   line-height: 0.9;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .main-title {
     margin-block-end: 0;
   }
@@ -85,11 +85,12 @@ body {
   gap: 11px;
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .header__theme-menu-list {
     flex-direction: row;
     gap: 20px;
   }
+
   .header__theme-menu {
     justify-content: center;
     align-items: baseline;
@@ -176,14 +177,14 @@ body {
   line-height: 130%;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .title-decor {
     justify-self: end;
     max-width: 45%;
   }
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .title-decor {
     justify-self: end;
     max-width: 50%;
@@ -199,7 +200,7 @@ body {
 }
 
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .main__section {
     grid-template-columns: repeat(3, 1fr);
     padding: 0 20px;
@@ -215,7 +216,7 @@ body {
 
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .section__title {
     grid-column: 1/2;
   }
@@ -229,10 +230,10 @@ body {
 .section__block-text {
   display: grid;
   gap: 10px;
-  
+
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .section__block {
     display: grid;
     grid-column: 2/4;
@@ -246,40 +247,42 @@ body {
 }
 
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .special__section-text {
     word-spacing: -4px;
   }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .special__block-text {
     display: block;
   }
+
   .special__block-text .section__subtitle {
     margin-block-end: 10px;
   }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .special__section-block {
     grid-column: 1/4;
-    
+
   }
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .special__block-text {
     margin: 0;
   }
+
   .special__block-text:first-child {
     grid-column: 1/2;
   }
-  
+
   .special__block-text:nth-child(2n) {
     grid-column: 2/3;
   }
-  
+
   .special__block-text:nth-child(3n) {
     grid-column: 3/4;
   }
@@ -300,10 +303,10 @@ body {
   line-height: 130%;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .section-text {
     padding-inline-end: 10px;
-    
+
   }
 }
 
@@ -332,38 +335,39 @@ body {
   margin-block-end: 50px;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .gallery {
     display: grid;
     gap: 20px;
-    grid-template-areas: 
-    "title title title"
-    "sunset sunset ice-cream"
-    "tape books ice-cream"
-    "tape street street";
+    grid-template-areas:
+      "title title title"
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street";
   }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .gallery {
     gap: 20px;
-  }  
+  }
+
   .image-sunset {
     grid-area: sunset;
   }
-  
+
   .image-ice-cream {
     grid-area: ice-cream;
   }
-  
+
   .image-tape {
     grid-area: tape;
   }
-  
+
   .image-books {
     grid-area: books;
   }
-  
+
   .image-street {
     grid-area: street;
   }
@@ -380,7 +384,7 @@ body {
 }
 
 .footer {
- height: 100vh;
+  height: 100vh;
 }
 
 .frames {
@@ -395,7 +399,7 @@ body {
   padding: 67% 10%;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .footer {
     display: grid;
     align-items: center;
