@@ -30,7 +30,7 @@ body {
 @media (width >= 768px) {
   .header {
     padding: 0 27px 0 5px;
-    gap: 12%;
+    gap: 15%;
     margin-block-end: 60px;
   }
 }
@@ -218,7 +218,7 @@ body {
   .section__block {
     display: grid;
     grid-column: 2/4;
-    gap: 10px;
+    gap: 20px;
   }
 }
 
@@ -230,6 +230,9 @@ body {
 @media (width >= 768px) {
   .special__block-text {
     display: block;
+  }
+  .special__block-text .section__subtitle {
+    margin-block-end: 10px;
   }
 }
 
