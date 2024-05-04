@@ -3,8 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
-.page.theme_light {
+:root.theme_light {
   --font-family: 'IBM Plex mono';
   --bg-color: #FFF1F7;
   --section-title-color: #353430;
@@ -18,9 +17,7 @@
   --rec: none;
 }
 
-
-
-:root.theme_light {
+.page.theme_light {
   --font-family: 'IBM Plex mono';
   --bg-color: #FFF1F7;
   --section-title-color: #353430;
