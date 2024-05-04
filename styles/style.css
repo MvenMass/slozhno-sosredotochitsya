@@ -29,8 +29,8 @@ body {
 
 @media (width >= 768px) {
   .header {
-    padding: 0 25px 0 5px;
-    gap: 20%;
+    padding: 0 27px 0 5px;
+    gap: 12%;
     margin-block-end: 60px;
   }
 }
@@ -185,6 +185,8 @@ body {
 @media (width >= 768px) {
   .main__section {
     grid-template-columns: repeat(3, 1fr);
+    padding: 0 15px;
+    margin-block-end: 80px;
   }
 }
 
