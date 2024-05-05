@@ -13,7 +13,7 @@
   --accent-color: #FF8DCB;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(/images/cover-image-light.png);
+  --cover-img: url(./images/cover-image-light.png);
   --rec: none;
 }
 
@@ -27,7 +27,7 @@
   --accent-color: #FF8DCB;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(/images/cover-image-light.png);
+  --cover-img: url(./images/cover-image-light.png);
   --rec: none;
 }
 
@@ -42,7 +42,7 @@
       --accent-color: #FF8DCB;
       --weight-bold: bold;
       --weight: normal;
-      --cover-img: url(/images/cover-image-light.png);
+      --cover-img: url(./images/cover-image-light.png);
       --rec: none;
   }
 }

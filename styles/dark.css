@@ -14,7 +14,7 @@
   --accent-color: #FF0070;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(/images/cover-image-dark.png);
+  --cover-img: url(./images/cover-image-dark.png);
   --rec: block;
 }
 
@@ -28,7 +28,7 @@
   --accent-color: #FF0070;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(/images/cover-image-dark.png);
+  --cover-img: url(./images/cover-image-dark.png);
   --rec: block;
 }
 
@@ -43,7 +43,7 @@
     --accent-color: #FF0070;
     --weight-bold: bold;
     --weight: normal;
-    --cover-img: url(/images/cover-image-dark.png);
+    --cover-img: url(./images/cover-image-dark.png);
     --rec: block;
   }
 }
