@@ -307,7 +307,8 @@
     margin: 0;
     word-break: break-word;
   }
-  .special__block-text:not(:last-of-type){
+
+  .special__block-text:not(:last-of-type) {
     margin-inline-end: 2%;
   }
 
