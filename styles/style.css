@@ -299,13 +299,15 @@
   .special__section-block {
     grid-column: 1/4;
     padding: 0;
-    gap: 20px;
   }
 }
 
 @media (width >=1024px) {
   .special__block-text {
     margin: 0;
+    word-break: break-word;
+  }
+.special__block-text:not(:last-of-type) {    margin-inline-end: 2%;
   }
 
   .special__block-text:first-child {
