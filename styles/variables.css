@@ -13,6 +13,7 @@
   --accent-color: #FF0070;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(./images/cover-image/png);
+  --cover-img: url(../images/cover-image/png);
   --rec: block;
+  --button-border: rgba(255, 0, 112, 0.4);
 }

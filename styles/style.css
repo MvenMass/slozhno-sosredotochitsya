@@ -31,15 +31,15 @@
 
 @media (width >= 768px) {
   .header {
-    padding: 22% 25px 23% 0;
-    gap: 25%;
-    margin-block-end: 67px;
+    padding: 23% 20px 23% 0;
+    gap: 24.5%;
+    margin-block-end: 66px;
   }
 }
 
 @media (width >=1024px) {
   .header {
-    gap: 14%;
+    gap: 13%;
     padding: 0;
     padding-block-start: 18px;
     margin-block-end: 60px;
@@ -53,7 +53,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
-@media (width >=768px) {
+@media (width >= 768px) {
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -66,11 +66,18 @@
   line-height: 0.8;
 }
 
-@media (width >=768px) {
+@media (width >= 768px) {
   .main-title {
     margin-block-end: 0px;
   }
 }
+
+@media (width >= 1024px) {
+  .main-title {
+    margin-block-end: 19px;
+  }
+}
+
 
 .header__theme-menu {
   display: grid;
@@ -87,8 +94,15 @@
 
 @media (width >= 768px) {
   .header__theme-menu {
-    margin-block-end: 0;
+    margin-block-end: 11px;
     padding: 0;
+    padding-inline-end: 5px;
+  }
+}
+
+@media (width >= 1024px) {
+  .header__theme-menu {
+    margin-block-end: 0px;
   }
 }
 
@@ -126,7 +140,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--section-title-color);
+  border: 1px solid var(--button-border);
 }
 
 .header__theme-menu-button:focus {
@@ -209,15 +223,15 @@
 
 @media (width >=768px) {
   .header-text {
-    max-width: 48%;
+    max-width: 48.6%;    
     padding-inline-end: 60px;
   }
 }
 
 @media (width >=1024px) {
   .header-text {
+    max-width: 47.9%;    
     justify-self: end;
-    max-width: 48%;
     padding-inline-end: 0;
     margin-inline-end: 20px;
   }
@@ -238,7 +252,7 @@
 @media (width >=768px) {
   .main__section {
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 18px;
+    padding: 0 20px;
     margin-block-end: 80px;
   }
 }
@@ -264,7 +278,7 @@
 @media (width >= 768px) {
   .section__block {
     grid-column: 2/4;
-    padding-inline-start: 6px;
+    padding-inline-start: 8px;
   }
 }
 
@@ -299,17 +313,23 @@
   .special__section-block {
     grid-column: 1/4;
     padding: 0;
+    gap: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .special__section-block {
+    gap: 0;
   }
 }
 
 @media (width >=1024px) {
   .special__block-text {
     margin: 0;
-    word-break: break-word;
   }
 
   .special__block-text:not(:last-of-type) {
-    margin-inline-end: 2%;
+    margin-inline-end: 4.5%;
   }
 
   .special__block-text:first-child {
@@ -338,11 +358,11 @@
   line-height: 130%;
 }
 
-@media (width >=768px) {
+/* @media (width >=768px) {
   .section-text {
     padding-inline-end: 10px;
   }
-}
+} */
 
 @media (width >= 1024px) {
   .section-text {
@@ -376,7 +396,7 @@
 
 @media (width >=768px) {
   .gallery {
-    gap: 20px;
+    gap: 21px;
     grid-template-areas:
       "title title title"
       "sunset sunset ice-cream"
@@ -419,7 +439,23 @@
 }
 
 .footer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
+  padding-block-end: 7%;
+}
+
+@media (width >= 768px) {
+  .footer {
+    padding-block-end: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .footer {
+    padding-block-start: 1%;
+  }
 }
 
 .frames {
@@ -431,19 +467,10 @@
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px var(--accent-color);
-  line-height: 5.5
 }
 
 @media (width >=768px) {
   .footer-title {
     line-height: 0.8;
-  }
-}
-
-@media (width >=768px) {
-  .footer {
-    display: grid;
-    align-items: center;
-    justify-content: center;
   }
 }

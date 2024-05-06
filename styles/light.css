@@ -13,8 +13,9 @@
   --accent-color: #FF8DCB;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(./images/cover-image-light.png);
+  --cover-img: url(../images/cover-image-light.png);
   --rec: none;
+  --button-border: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light {
@@ -27,8 +28,9 @@
   --accent-color: #FF8DCB;
   --weight-bold: bold;
   --weight: normal;
-  --cover-img: url(./images/cover-image-light.png);
+  --cover-img: url(../images/cover-image-light.png);
   --rec: none;
+  --button-border: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -42,7 +44,8 @@
       --accent-color: #FF8DCB;
       --weight-bold: bold;
       --weight: normal;
-      --cover-img: url(./images/cover-image-light.png);
+      --cover-img: url(../images/cover-image-light.png);
       --rec: none;
+      --button-border: rgba(50, 49, 45, 0.4);
   }
 }
