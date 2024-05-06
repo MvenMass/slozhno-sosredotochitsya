@@ -222,18 +222,18 @@
 }
 
 @media (width >=768px) {
-  .header-text {
-    max-width: 48.6%;    
+  .header-text {  
     padding-inline-end: 60px;
+    max-width: 48.6%
   }
 }
 
 @media (width >=1024px) {
-  .header-text {
-    max-width: 47.9%;    
+  .header-text {   
     justify-self: end;
     padding-inline-end: 0;
     margin-inline-end: 20px;
+    max-width: 47.9%;
   }
 }
 
